@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Twitter</title>
+    <link rel="stylesheet" href="css/main.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <script src="https://unpkg.com/moment@2.19.3/moment.js"></script>
+    <script src="https://unpkg.com/moment@2.19.3/locale/es.js"></script>
+  </head>
+
+  <body>
+  	<nav>
+  		<span>Twitter</span>
+  	</nav>
+
+<!--Iniciando sección-->
+    <div class="container">
+  	<section class="box-1">
+<!--Sección fija -->
+      <p>Reto de código</p>
+      <p>Hola, soy front-end developer Jr.</p>
+      <br>
+      <br>
+      <br>
+      <p class="letter-blue">CÓDIGO</p>
+    </section>
+<!--Seccion donde se ingresa el twitter-->
+<section id="box-twit" class="box-2">
+  <form id="tex-tweet" action="index.html" method="post">
+    <textarea name="twit" rows="6" cols="70" placeholder="¿Que estas pensando?" onkeydown="count()"></textarea>
+    <hr>
+    <!-- Boton para enviar el twitter-->
+    <input type="submit"  value="TWEET"></input>
+    <div id="acount">140</div>
+  </form>
+</section>
+<!-- inicio de la sección de historial -->
+
+<section class="box-3">
+  <p>Hola <br><span></span></p>
+</section>
+
+
+</div>
+
+    <script src="js/app.js" charset="utf-8"></script>
+  </body>
+</html>
