@@ -24,6 +24,7 @@ nav {
 
 .box-1 {
 	background: #FFF;
+	border-radius: 1%;
   width: 500px;
   height: 280px;
   margin-top: 15px;
@@ -43,6 +44,7 @@ font-weight: bold;
 
 .box-2 {
 	background: #FFF;
+	border-radius: 1%;
   width: 600px;
   height: 290px;
   margin-top: 15px;
@@ -68,7 +70,8 @@ font-weight: bold;
   margin: 20px;
   width: 120px;
   height: 40px;
-  border: 0;
+	border: 0;
+  border-radius: 2%;
   background: #6CD2F5;
   color: #FFF;
 
